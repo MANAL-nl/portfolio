@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio MIAGE - Systèmes d'Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="styled-bg">
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">BOUHRICH MANAL - Portfolio</h1>
+                <button class="menu-toggle" id="menu-toggle" aria-label="Ouvrir le menu">☰</button>
+              <nav class="nav" id="nav-menu">
+                <div class="nav-item dropdown">
+                    <button class="nav-link dropdown-toggle" id="dropdown-btn">Modules</button>
+                    <div class="dropdown-menu" id="dropdown-menu">
+                    <div class="dropdown-submenu">
+                    <button class="dropdown-link submenu-btn">Travaux Demandés</button>
+                <div class="dropdown-submenu-menu">
+                    <a href="#travaux" class="dropdown-link tab-nav" data-tab="td">TD</a>
+                    <a href="#travaux" class="dropdown-link tab-nav" data-tab="tp">TP</a>
+                </div>
+            </div>
+            <a href="#notes" class="dropdown-link">Notes</a>
+            <a href="#documents" class="dropdown-link">Documents SI</a>
+            <a href="#certifications" class="dropdown-link">Certifications</a>
+            <a href="#projet" class="dropdown-link">Projet Final</a>
+            <a href="#soutenance" class="dropdown-link">Soutenance</a>
+            <a href="#ressources" class="dropdown-link">Ressources</a>
+        </div>
+    </div>
+    <a href="#projet" class="nav-link">Projet</a>
+    <a href="#footer" class="nav-link">Contact</a>
+</nav>
+           </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Portfolio — Introduction aux Systèmes d'Information</h2>
+                <p class="hero-subtitle">Semestre 5 - Parcours MIAGE</p>
+                <p class="hero-description">
+                    Ce portfolio regroupe l'ensemble de mes travaux, notes et projets réalisés dans le cadre du module Introduction aux Systèmes d'Information.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <main class="main">
+        <div class="container">
+
+            <!-- Travaux Demandés -->
+            <section id="travaux" class="section">
+                <div class="section-header centered">
+                    <div class="icon-wrapper">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h2 class="section-title">Travaux Demandés</h2>
+                        <p class="section-description">TD et TP réalisés en classe</p>
+                    </div>
+                </div>
+
+                <!-- Onglets -->
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="td">Travaux Dirigés (TD)</button>
+                    <button class="tab-btn" data-tab="tp">Travaux Pratiques (TP)</button>
+                </div>
+
+                <!-- Contenu TD -->
+                <div class="tab-content active" id="td">
+                    <div class="card-grid">
+                        <div class="card">
+                            <h3 class="card-title">TD n°1 - Introduction aux Systèmes d'Information</h3>
+                            <p class="card-description">Découverte des concepts fondamentaux des systèmes d'information et étude des PGI.</p>
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                                <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                                <path d="M14 2v5h5"/>
+                                <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                                </svg>
+                                 <a href="assets/td/1TD1-si.pdf" class="card-link" target="_blank">Introduction aux Systèmes d’Information TD1-SI </a>
+                            </p>
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                                <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                                <path d="M14 2v5h5"/>
+                                <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                                </svg>
+                                 <a href="assets/td/TD-PGI-.pdf" class="card-link" target="_blank">TD-PGI </a>
+                            </p>
+                            <p>
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#217346" style="vertical-align: middle; margin-right: 4px;">
+                                    <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                                    <path d="M14 2v5h5"/>
+                                    <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">EXCEL</text>
+                                </svg>
+                                <a href="assets/td/PGI_exercice..xls" class="card-link" target="_blank">PGI_exercice</a>
+                            </p>
+                        </div>
+                         <div class="card">
+                            <h3 class="card-title">TD n°2 - Étude de cas : Chaîne de supermarchés (RetailMarket SA)</h3>
+                            <p class="card-description">Analyse d'un système d'information dans le secteur de la grande distribution.</p>
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                                <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                                <path d="M14 2v5h5"/>
+                                <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                                </svg>
+                                 <a href="assets/td/2TD2_si.pdf" class="card-link" target="_blank">TD2 – Étude de cas"RetailMarket SA" </a>
+                            </p>
+                        </div> 
+                        <div class="card">
+                            <h3 class="card-title">TD n°3 - Processus de gestion & modélisation</h3>
+                            <p class="card-description">Réalisation de diagrammes de flux-acteurs et événement-résultat grace a draw.io.</p>
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                                <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                                <path d="M14 2v5h5"/>
+                                <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                                </svg>
+                                 <a href="assets/td/TD3-diagramme-flux.pdf" class="card-link" target="_blank">TD- Diagramme de flux </a>
+                            </p>
+                             <p>
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                                <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                                <path d="M14 2v5h5"/>
+                                <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                                </svg>
+                                <a href="assets/td/3 shéma acteur flux.pdf" class="card-link" target="_blank">Schéma acteur flux</a>
+                            </p>
+                            <p>
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                                <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                                <path d="M14 2v5h5"/>
+                                <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                                </svg>
+                                <a href="assets/td/3A2._TD2_ProcessusOrganisationnel.pdf" class="card-link" target="_blank">Schéma événement-résultat</a>
+                            </p>
+                        </div> 
+                        <div class="card">
+                            <h3 class="card-title">TD n°4 - Méthode Merise</h3>
+                            <p class="card-description">Modélisation avec la méthode Merise.</p>
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                                <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                                <path d="M14 2v5h5"/>
+                                <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                                </svg>
+                                 <a href="assets/cours/tp1.pdf" class="card-link" target="_blank">Méthode Merise MCD </a>
+                            </p>
+                        </div>   
+                        <div class="card">
+                            <h3 class="card-title">TD n°5 - UML : Use Case et Diagramme de Classe</h3>
+                            <p class="card-description">Modélisation UML avec diagrammes de cas d'utilisation et diagrammes de classe.</p>
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                                <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                                <path d="M14 2v5h5"/>
+                                <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                                </svg>
+                                 <a href="assets/td/5Diagramme de classe.pdf" class="card-link" target="_blank">Diagramme de classe </a>
+                            </p>
+                            <p>
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                                <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                                <path d="M14 2v5h5"/>
+                                <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                                </svg>
+                                <a href="assets/td/5USE CASE.pdf" class="card-link" target="_blank">Use Case</a>
+                            </p>
+                        </div>       
+                    </div>
+                </div>
+
+                <!-- Contenu TP -->
+                <div class="tab-content" id="tp">
+                    <div class="card-grid">
+                        <div class="card">
+                            <h3 class="card-title">TP n°1 - Odoo</h3>
+                            <p class="card-description">Apprentissage d'Odoo.</p>
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                                <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                                <path d="M14 2v5h5"/>
+                                <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                                </svg>
+                                 <a href="assets/tp/TP-Odoo..pdf" class="card-link" target="_blank">Odoo </a>
+                            </p>                        
+                        </div>
+                        <div class="card">
+                            <h3 class="card-title">TP n°2 - Gantt </h3>
+                            <p class="card-description">Planification de projet avec diagramme de Gantt.</p>
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                                <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                                <path d="M14 2v5h5"/>
+                                <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                                </svg>
+                                 <a href="assets/tp/tp-gantt.pdf" class="card-link" target="_blank">Gantt </a>
+                            </p>                        
+                        </div>
+                        <div class="card">
+                            <h3 class="card-title">TP n°3 - Projet de Système d’Information / PGI Web </h3>
+                            <p><strong>Sujet choisi :</strong> Application de Gestion d'Événements</p>
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                                <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                                <path d="M14 2v5h5"/>
+                                <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                                </svg>
+                                 <a href="assets/tp/enonce-Projet.pdf" class="card-link" target="_blank">Énoncé de Projet</a>
+                            </p>                        
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Notes de Cours -->
+            <section id="notes" class="section">
+                <div class="section-header centered">
+                    <div class="icon-wrapper">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h2 class="section-title">Notes de Cours</h2>
+                        <p class="section-description">Prises de notes personnelles et synthèses</p>
+                    </div>
+                </div>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3 class="card-title">Pilotage de Projet</h3>
+                        <p class="card-description">Planification et suivi d’un projet.</p>
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                            <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                            <path d="M14 2v5h5"/>
+                            <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                            </svg>
+                            <a href="assets/cours/GestiondeProjet.pdf" class="card-link" target="_blank">Gestion de projet</a>
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title">Spécifications du Besoin</h3>
+                        <p class="card-description">Formalisation des besoins du client.</p>
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                            <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                            <path d="M14 2v5h5"/>
+                            <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                            </svg>
+                            <a href="assets/cours/CahierdesCharges.pdf" class="card-link" target="_blank">Cahier des charges</a>
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title">Cycle de Vie du SI & Scénarios d’Utilisation</h3>
+                        <p class="card-description">Étapes de réalisation d’un projet informatique et modélisation des interactions avec le système. </p>
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                            <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                            <path d="M14 2v5h5"/>
+                            <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                            </svg>
+                            <a href="assets/cours/LesphasesUML.pdf" class="card-link" target="_blank">Cycle de Vie du SI & Use Case</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Documents SI -->
+            <section id="documents" class="section">
+                <div class="section-header centered">
+                    <div class="icon-wrapper">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                            <path d="M9 5v4a2 2 0 002 2h4"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h2 class="section-title">Documents d'un Système d'Information</h2>
+                        <p class="section-description">Documentation technique et fonctionnelle</p>
+                    </div>
+                </div>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3 class="card-title">Introduction et concepts des Systèmes d’Information (SI)</h3>
+                        <p class="card-description">Pose les bases théoriques du SI, son rôle dans les organisations et la distinction entre données, information et connaissance.</p>
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                            <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                            <path d="M14 2v5h5"/>
+                            <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                            </svg>
+                            <a href="assets/docs/cours-information.pdf" class="card-link" target="_blank">Système d'information et Organisation</a>
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title">Gestion de projet SI </h3>
+                        <p class="card-description">Explique ce qu’est un projet SI, les acteurs, priorités, cycle de vie et facteurs clés de réussite. Montre comment un projet SI répond à l’évolution de l’organisation.</p>
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                            <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                            <path d="M14 2v5h5"/>
+                            <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                            </svg>
+                            <a href="assets/docs/dossier-gestion-projet.pdf" class="card-link" target="_blank">Gestion de projet SI</a>
+                        </p>
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                            <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                            <path d="M14 2v5h5"/>
+                            <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                            </svg>
+                            <a href="assets/docs/cours_gestion_projet.pdf" class="card-link" target="_blank">Gestion de Projets de Systèmes d’Information </a>
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title">Cahier des charges et documentation projet</h3>
+                        <p class="card-description">Montre comment formaliser les besoins d’un projet SI à travers des documents pratiques : cahier des charges, devis, propositions commerciales.</p>
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                            <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                            <path d="M14 2v5h5"/>
+                            <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                            </svg>
+                            <a href="assets/docs/cahier-des-charges-devis-support.pdf" class="card-link" target="_blank">Cahier des charges</a>
+                        </p>
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                            <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                            <path d="M14 2v5h5"/>
+                            <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                            </svg>
+                            <a href="assets/docs/annexe-ExempleCahierDesChargesIntranetINRA.pdf" class="card-link" target="_blank">Cahier des charges Intranet</a>
+                        </p>
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                            <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                            <path d="M14 2v5h5"/>
+                            <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                            </svg>
+                            <a href="assets/docs/SFG_TalentSeek.pdf" class="card-link" target="_blank">Spécifications Fonctionnelles Générales (SFG)</a>
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title">Modélisation et livrables du SI</h3>
+                        <p class="card-description">Traite de la modélisation UML (diagrammes des cas d’utilisation) et des livrables du SI, de l’analyse des besoins à la mise en production. Comprend un exemple concret (Odoo).</p>
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                            <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                            <path d="M14 2v5h5"/>
+                            <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                            </svg>
+                            <a href="assets/docs/Les-phases-SI.pdf" class="card-link" target="_blank">Livrables SI</a>
+                        </p>
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                            <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                            <path d="M14 2v5h5"/>
+                            <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                            </svg>
+                            <a href="assets/docs/cours-use-case.pdf" class="card-link" target="_blank">Langage de modélisation & Diagramme des cas d’utilisation</a>
+                        </p>
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="red" style="vertical-align: middle; margin-left: 4px;">
+                            <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                            <path d="M14 2v5h5"/>
+                            <text x="6" y="18" font-family="Arial" font-size="5" fill="white" font-weight="bold">PDF</text>
+                            </svg>
+                            <a href="assets/docs/Odoo.pdf" class="card-link" target="_blank">Odoo</a>
+                        </p>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!-- Certifications -->
+            <section id="certifications" class="section">
+                <div class="section-header centered">
+                    <div class="icon-wrapper">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h2 class="section-title">Certifications</h2>
+                        <p class="section-description">Attestations et certifications obtenues</p>
+                    </div>
+                </div>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3 class="card-title">Introduction à SQL</h3>
+                        <!-- Image du certificat -->
+                        <img src="assets/Certifications/certificationSQL.jpg" 
+                            alt="Certificat Planification de Projet avec IA" 
+                            class="certificat-img" 
+                            onclick="openCertifModal(this.src)">
+                        <p class="card-description">
+                            <strong>Organisme :</strong> Yeva Hyusyan, CEO
+                        </p>
+                    </div>
+                   <div class="card">
+                        <h3 class="card-title">Planification de Projet avec l'IA</h3>
+                        <!-- Image du certificat -->
+                        <img src="assets/Certifications/certification_Planificationdeprojet.jpg" 
+                            alt="Certificat Planification de Projet avec IA" 
+                            class="certificat-img" 
+                            onclick="openCertifModal(this.src)">
+                        <p class="card-description">
+                            <strong>Organisme :</strong> Yeva Hyusyan, CEO
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Projet Final -->
+            <section id="projet" class="section">
+                <div class="section-header centered">
+                    <div class="icon-wrapper">git init
+
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h2 class="section-title">Projet Final</h2>
+                        <p class="section-description">Projet intégrant les compétences acquises</p>
+                    </div>
+                </div>
+                <div class="project-showcase">
+                    <div class="project-card">
+                        <h3 class="project-title">Gestion des Événements :</h3>
+                        <p class="project-description">
+                            Application web de gestion des événements pour l’établissement, permettant 
+                            la planification, l’inscription des participants, le suivi des places disponibles 
+                            et l’édition de rapports. Inclut un calendrier interactif, la gestion des inscrits, 
+                            les notifications et le contrôle des accès, offrant une solution numérique complète 
+                            pour faciliter l’organisation des événements.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://portail-vie-evenementielle.42web.io/" class="btn btn-primary">Voir le projet</a>
+                             <a href="assets/td/1TD1-si.pdf" class="btn btn-secondary">Documentation</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Soutenance -->
+            <section id="soutenance" class="section">
+                <div class="section-header centered">
+                    <div class="icon-wrapper">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                            <path d="M9 13h6m-6 4h6"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h2 class="section-title">Diaporama de Soutenance</h2>
+                        <p class="section-description">Présentation PowerPoint complète de la soutenance</p>
+                    </div>
+                </div>
+                <div class="diaporama-showcase">
+                    <div class="diaporama-card">
+                        <h3 class="diaporama-title">Présentation PowerPoint</h3>
+                        <p class="diaporama-description">
+                            Diaporama complet de la soutenance, réalisé au format PowerPoint pour présenter les résultats du projet.
+                        </p>
+                        <a href="assets/td/PGI_exercice..xls" class="btn btn-primary" target="_blank">Télécharger le PowerPoint →</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Ressources -->
+            <section id="ressources" class="section">
+                <div class="section-header centered">
+                    <div class="icon-wrapper">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h2 class="section-title">Autres Ressources</h2>
+                        <p class="section-description">Ressources complémentaires et veille technologique</p>
+                    </div>
+                </div>
+            <div class="card-grid">
+    <!-- 🔎 Articles de veille -->
+    <div class="card">
+        <h3 class="card-title">🔎 Articles de veille</h3>
+        <p class="card-description">Sélection d’articles récents sur les tendances SI et ERP.</p>
+        <ul>
+            <li>
+                <strong>Gartner</strong> – Principales tendances technologiques 2025.  
+                <a href="https://www.gartner.fr/fr/articles/principales-tendances-technologiques-2025" target="_blank">gartner.fr</a>
+            </li>
+            <li>
+                <strong>Appvizer</strong> – Comparatif Odoo vs Dolibarr (ERP open source).  
+                <a href="https://www.appvizer.com/magazine/operations/erp/dolibarr-vs-odoo" target="_blank">appvizer.com</a>
+            </li>
+            <li>
+                <strong>Triskell Software</strong> – Tendances de la gestion de projet 2025.  
+                <a href="https://triskellsoftware.com/fr/blog/tendances-gestion-projet/" target="_blank">triskellsoftware.com</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 🧠 Tutoriels -->
+    <div class="card">
+        <h3 class="card-title">🧠 Tutoriels</h3>
+        <p class="card-description">Ressources pratiques pour approfondir les notions vues en cours.</p>
+        <ul>
+            <li>
+                <strong>Monday Work Management</strong> – Guide complet de la gestion de projet.  
+                <a href="https://monday.com/blog/fr/gestion-de-projet/guide-gestion-de-projet/" target="_blank">monday.com</a>
+            </li>
+            <li>
+                <strong>Itaia</strong> – Tendances IT à suivre pour les PME en 2025.  
+                <a href="https://www.itaia.fr/tendances-technologiques-2025-pme/" target="_blank">itaia.fr</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 🌐 Liens utiles -->
+    <div class="card">
+        <h3 class="card-title">🌐 Liens utiles</h3>
+        <p class="card-description">Sites et outils recommandés.</p>
+        <ul>
+            <li><strong>Diagrams.net</strong> – Création de diagrammes UML. <a href="https://app.diagrams.net" target="_blank">diagrams.net</a></li>
+            <li><strong>Notion</strong> – Gestion de projet et documentation. <a href="https://www.notion.so" target="_blank">notion.so</a></li>
+            <li><strong>Odoo</strong> – ERP open source complet. <a href="https://www.odoo.com" target="_blank">odoo.com</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <div class="footer-about">
+                    <h3>À propos</h3>
+                    <p>Portfolio MIAGE - Systèmes d'Information.<br>Présentation des travaux, notes et projets réalisés dans le cadre du Semestre 5.</p>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p>📧 Email : <a href="mailto:manalbouhrich@gmail.com">manalbouhrich@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Portfolio - SI MIAGE. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Menu toggle
+        const toggle = document.getElementById('menu-toggle');
+        const menu = document.getElementById('nav-menu');
+        toggle.addEventListener('click', () => {
+            menu.classList.toggle('active');
+            toggle.classList.toggle('open');
+        });
+
+        // Dropdown
+        const dropdownBtn = document.getElementById('dropdown-btn');
+        const dropdownMenu = document.getElementById('dropdown-menu');
+        dropdownBtn.addEventListener('click', () => {
+            dropdownMenu.classList.toggle('active');
+            dropdownBtn.classList.toggle('active');
+        });
+        window.addEventListener('click', (e) => {
+            if (!dropdownBtn.contains(e.target) && !dropdownMenu.contains(e.target)) {
+                dropdownMenu.classList.remove('active');
+                dropdownBtn.classList.remove('active');
+            }
+        });
+
+        // Tabs
+        const tabButtons = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+        tabButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                tabButtons.forEach(b => b.classList.remove('active'));
+                tabContents.forEach(c => c.classList.remove('active'));
+                btn.classList.add('active');
+                document.getElementById(btn.dataset.tab).classList.add('active');
+            });
+        });
+
+        // Activation des onglets depuis le menu
+const tabNavLinks = document.querySelectorAll('.tab-nav');
+
+tabNavLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+        e.preventDefault();
+
+        // Scroll vers la section Travaux Demandés
+        const targetSection = document.querySelector('#travaux');
+        targetSection.scrollIntoView({ behavior: 'smooth' });
+
+        // Activation de l'onglet correspondant
+        const targetTab = link.dataset.tab;
+        tabButtons.forEach(btn => btn.classList.remove('active'));
+        tabContents.forEach(c => c.classList.remove('active'));
+
+        document.querySelector(`.tab-btn[data-tab="${targetTab}"]`).classList.add('active');
+        document.getElementById(targetTab).classList.add('active');
+
+        // Fermer le menu dropdown sur mobile
+        dropdownMenu.classList.remove('active');
+        dropdownBtn.classList.remove('active');
+        menu.classList.remove('active');
+        toggle.classList.remove('open');
+    });
+    });
+    // Forcer le scroll en haut, même après reload
+    window.addEventListener("beforeunload", function () {
+        // Stocke temporairement une info pour forcer le scroll
+        window.scrollTo(0, 0);
+    });
+
+    // Alternative plus fiable
+    window.addEventListener("load", function () {
+        setTimeout(() => {
+            window.scrollTo(0, 0);
+        }, 0);
+    });
+
+    function openCertifModal(src) {
+  document.getElementById("certifModal").style.display = "block";
+  document.getElementById("certifModalImg").src = src;
+}
+
+function closeCertifModal() {
+  document.getElementById("certifModal").style.display = "none";
+}
+    </script>
+
+    <div id="certifModal" class="modal">
+  <span class="close" onclick="closeCertifModal()">&times;</span>
+  <img class="modal-content" id="certifModalImg">
+</div>
+
+</body>
+</html>
