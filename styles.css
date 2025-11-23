@@ -69,6 +69,8 @@ html {
   color: var(--color-primary);
   font-size: 1.6rem;
   font-weight: 700;
+  text-decoration: none;
+
 }
 
 /* Navigation Links */
@@ -678,6 +680,7 @@ html {
 .certificat-img:hover {
   transform: scale(1.03);
 }
-
-
-
+   
+ .project-card p {
+        text-align: justify;
+    }
